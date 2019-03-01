@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>Spring5_bookMyshow</artifactId>
+	<artifactId>Spring5_webclient</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Spring5_bookMyshow</name>
+	<name>Spring5_webclient</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -29,10 +29,6 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webflux</artifactId>
 		</dependency>
 
@@ -46,6 +42,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+	
+<dependency>
+    <groupId>org.projectreactor</groupId>
+    <artifactId>reactor-spring</artifactId>
+    <version>1.0.1.RELEASE</version>
+</dependency>
 		<dependency>
 			<groupId>io.projectreactor</groupId>
 			<artifactId>reactor-test</artifactId>
